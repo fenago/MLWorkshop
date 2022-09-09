@@ -1,0 +1,38 @@
+
+1. Open command prompt on your system.
+2. Create a new folder where you wish to include 
+all the project related files 
+(suppose the name of the folder is “temp”)
+3. Now, run the following command:
+
+python -m venv mlworkbook
+
+Here, venv is a package inbuilt in python which is used for creating and manging environments. mlworkbook is the name of the environment
+
+4. After entering, it will create the virtual 
+environment with the name mlworkbook. 
+We can activate this by running the following command: 
+
+mlworkbook\Scripts\activate
+
+When you hit enter, it will activate the mlworkbook 
+names environments. After this activation, if you 
+run pip install, it will install the packages 
+within this environment. 
+
+To identify that your virtual environment is active, 
+you can see on the left-hand side of your command 
+prompt, there will be a name of your environment. 
+
+ 
+
+while this environment is active, we can run the same 
+freeze command we ran earlier and now this time, 
+it will only make a requiremnst.txt file with the 
+packages of this environment. 
+
+ 
+To deactivate, we can just run the following command:
+
+deactivate
+ 

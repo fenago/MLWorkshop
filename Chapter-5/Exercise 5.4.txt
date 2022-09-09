@@ -1,0 +1,13 @@
+1.	We could just run the following 
+    command from the terminal to create 
+    a requirements.txt file with a list 
+    of all the packages currently installed 
+    on our python system:
+
+    pip freeze > requirements.txt
+
+what this command will do is to install all the 
+packages which are currently there on our python 
+system. It will work but is inefficient because our 
+app might just be dependent on a few packages such 
+as sklearn, panadas, pickle etc. 
